@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { IpGeoLocationController } from './app.controller';
-import { IpGeoLocationService } from './app.service';
+import { IpGeoLocationService } from 'src/ipGeoLocation/services/ipGeoLocation.service';
+import { IpGeoLocationController } from './ipGeoLocation.controller';
 
 describe('AppController', () => {
   let appController: IpGeoLocationController;
